@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=GrapeNuts&family=Rock+Salt&display=swap');
+
+primary-color{
+    color: #767B91;
+}
+secondary-color{
+     color:lightgrey;
+}
+accent1-color{
+     color: cadetblue;
+}
+accent2-color{
+     color:cornflowerblue;   
+}
+:root {
+    --primary-color: #rgb(0, 0, 128);
+    --secondary-color: #rgb(211, 211, 211);
+    --accent1-color: #rgb(95, 158, 160);
+    --accent2-color: #rgb(100, 149, 237);
+
+    --heading-font: 'Grape Nuts', cursive;
+    --paragraph-font:'Dosis', sans-serif;
+
+    --nav-background-color: #767B91;
+    --nav-link-color: #
+    --nav-hover-link-color: #
+    --nav-hover-background-color: #
+}
+
+body {
+   font-family: var('Dosis' , sans-serif);
+   max-width: 960px;
+   padding: 20px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(Grape Nuts);
+  color: var(#F7C59F);  
+}
+
+header {
+  padding: 20px;
+  background-color: var(#2A324B);  
+}
+
+p{
+  padding: 25px;
+}
+
+nav {
+  background-color: var();  
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav  a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
