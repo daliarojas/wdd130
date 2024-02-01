@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=GrapeNuts&family=Dosis&display=swap');
+
+:root {
+    --primary-color: #231942;
+    --secondary-color: #5e548e;
+    --accent1-color: #9f86c0;
+    --accent2-color: #be95c4;
+  
+    --heading-font: 'GrapeNuts', sans-serif;
+    --paragraph-font: 'Dosis', sans-serif;
+  
+    --nav-link-color: #fff;
+    --nav-background-color: #231942;
+    --nav-hover-link-color: #231942;
+    --nav-hover-background-color: #fff;
+  }
+  
+  .hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    font-family: var(--paragraph-font);
+  }
