@@ -35,6 +35,19 @@ h6 {
 header {
     padding: 20px;
     background-color: var(--primary-color);
+    margin: 1rem auto;
+    display: flex;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
 p {
@@ -82,4 +95,17 @@ p {
 
 nav a {
     text-decoration: none;
+}
+
+figure{
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
