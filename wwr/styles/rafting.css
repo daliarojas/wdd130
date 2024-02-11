@@ -109,3 +109,48 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #be95c4;
+    display: grid;
+  }
+  
+  label, input, button, select, textarea {
+    font-family: 'Quicksand', sans-serif
+  }
+  
+  label {
+    text-align: center;
+    padding-right: 1rem;
+    margin: 1rem;
+  }
+  
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    margin: 1rem;
+    background-color: #231942;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: rgb(16, 75, 184);
+  }
+  
+  .form-item {
+    display: grid;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+  }
