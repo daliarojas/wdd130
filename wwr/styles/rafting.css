@@ -94,7 +94,14 @@ p {
 }
 
 nav a {
+    color:#fff;
     text-decoration: none;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2em;
+  display: flex;
 }
 
 figure{
@@ -153,4 +160,13 @@ form {
     display: grid;
     align-items: center;
     margin: 1rem 0 1rem 0;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
